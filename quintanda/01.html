@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quintanda</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="01.css">
+    <link rel="stylesheet" href="01.js">
+</head>
+
+<body>
+    <nav class="navbar bg-danger navbar-expand-sm ">
+        <div class="container ">
+            <a href="#" class="navbar-brand ">
+                <i class="bi bi-flower1 fs-2 text-light"> Quintanda Online</i>
+            </a>
+            <div class="navbar-nav ">
+                <a href="01.html" class="nav-link text-end text-light">Principal</a>
+
+                <a href="./contato.html" class="nav-link text-end text-light">Contato</a>
+            </div>
+
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="navbar-collapse justify-content-end " id="menu">
+                <div class="navbar-nav ">
+                    <a href="./cadastro.html" class="nav-link text-end text-light">Quero me Cadastrar</a>
+
+                    <a href="../quintanda/entrar.html" class="nav-link text-end text-light">Entrar</a>
+                </div>
+            </div>
+
+        </div>
+    </nav>
+
+    <section id="meucarrossel" class="carousel carousel-dark slide">
+        <!--Indicadores di banner-->
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#meucarrossel" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#meucarrossel" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#meucarrossel" data-bs-slide-to="2"></button>
+        </div>
+        <!--Lista de imagem - Banners -->
+        <div class="carousel-inner ">
+            <!--Imagem-->
+            <div class="carousel-item active" data-bs-interval="1000">
+                <img src=".//slides/slide01.jpg" class="w-100 d-block">
+                <div class="carousel-caption">
+
+                </div>
+            </div>
+            <!--Imagem 2-->
+            <div class="carousel-item" data-bs-interval="1000">
+                <img src=".//slides/slide01.jpg" class="w-100 d-block">
+            </div>
+            <!--Imagem 3-->
+            <div class="carousel-item" data-bs-interval="1000">
+                <img src=".//slides/slide01.jpg" class="w-100 d-block">
+            </div>
+
+        </div>
+
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#meucarrossel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <!-- botão esquerdo-->
+        <button class="carousel-control-next" type="button" data-bs-target="#meucarrossel" data-bs-slide="next"><span
+                class="carousel-control-next-icon"></span>
+        </button>
+
+    </section>
+    <hr>
+
+    <div class="d-flex justify-content-between align-items-center container ">
+        <form class="d-flex">
+            <div class="input-group ">
+                <input type="search" class="form-control">
+                <button type="submit" class="btn btn-danger  ">Buscar</button>
+            </div>
+        </form>
+        <div>
+            <nav>
+                <ul class="pagination justify-content-center">
+                    <li class="page-item">
+                        <a href="#" class="page-link">1</a>
+                    </li>
+                    <li class="page-item active">
+                        <a href="#" class="page-link">2</a>
+                    </li>
+                    <li class="page-item">
+                        <a href="#" class="page-link">3</a>
+                    </li>
+                    <li class="page-item">
+                        <a href="#" class="page-link">4</a>
+                    </li>
+                    <li class="page-item">
+                        <a href="#" class="page-link">5</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+<hr>
+    <div class="container ">
+        <div class="row  ">
+            <div class="card col-12 col-md-2 align-items-center">
+                <div class="card-header">
+                    <img src="./produtos/abobrinha.jpg" class="card-img-top">
+                </div>
+                <h3 class="text-center card-title bg-secondary-subtle border border-secondary ">R$3,60</h3>
+                <div clas="card-body">
+                    <h5 class="card-title">Abobrinha Kabocha</h5>
+                    <p class="card-text"> Abobrinha Kabocha com a melhor qualidade do mercado!!!</p>
+                </div>
+                <div class="card-footer">
+                    <button class="btn btn-danger  "> Adicionar o carinho </button>
+                </div>
+            </div>
+
+            <div class="card col-12 col-md-2 align-items-center">
+                <img src="./produtos/abacate.jpg" class="card-img-top">
+                <h3 class="text-center card-title bg-secondary-subtle border border-secondary ">R$3,60</h3>
+                <div clas="card-body">
+                    <h5 class="card-title">Abacate Tradicional</h5>
+                    <p class="card-text">Abacate com a melhor qualidade do mercado!!!</p>
+                </div>
+                <div class="d-flex justify-content-around ">
+                    <button class="btn btn-danger "> Adicionar o carinho </button>
+                </div>
+            </div>
+            <div class="card col-12 col-md-2 align-items-center">
+                <img src="./produtos/goiaba.jpg" class="card-img-top">
+                <h3 class="text-center card-title bg-secondary-subtle border border-secondary ">R$4,60</h3>
+                <div clas="card-body">
+                    <h5 class="card-title ">Goiaba Tradicional</h5>
+                    <p class="card-text">Goiaba com a melhor qualidade do mercado!!!</p>
+                </div>
+                <div class="d-flex justify-content-around ">
+                    <button class="btn btn-danger "> Adicionar o carinho </button>
+                </div>
+            </div>
+
+            <div class="card col-12 col-md-2 align-items-center">
+                <img src="./produtos/penino.jpg" class="card-img-top">
+                <h3 class="text-center card-title bg-secondary-subtle border border-secondary ">R$3,00</h3>
+                <div clas="card-body">
+                    <h5 class="card-title">Abobrinha Tradicional</h5>
+                    <p class="card-text">Abobrinha com a melhor qualidade do mercado!!!</p>
+                </div>
+                <div class="d-flex justify-content-around ">
+                    <button class="btn btn-danger "> Adicionar o carinho </button>
+                </div>
+            </div>
+
+            <div class="card col-12 col-md-2 align-items-center">
+                <img src="./produtos/alface.jpg" class="card-img-top">
+                <h3 class="text-center card-title bg-secondary-subtle border border-secondary ">R$2,60</h3>
+                <div clas="card-body">
+                    <h5 class="card-title">Alface Tradicional</h5>
+                    <p class="card-text">Alface com a melhor qualidade do mercado!!!</p>
+                </div>
+                <div class="d-flex justify-content-around ">
+                    <button class="btn btn-danger "> Adicionar o carinho </button>
+                </div>
+            </div>
+
+            <div class="card col-12 col-md-2 align-items-center">
+                <img src="./produtos/alho.jpg" class="card-img-top">
+                <h3 class="text-center card-title bg-secondary-subtle border border-secondary ">R$5,80</h3>
+                <div clas="card-body">
+                    <h5 class="card-title">Alho Tradicional</h5>
+                    <p class="card-text">Alho com a melhor qualidade do mercado!!!</p>
+                </div>
+                <div class="d-flex justify-content-around ">
+                    <button class="btn btn-danger "> Adicionar o carinho </button>
+                </div>
+            </div>
+
+            <div class="card col-12 col-md-2">
+                <div class="card-header">
+                    <img src="./produtos/abacate.jpg" class="card-img-top">
+                </div>
+                <h3 class="text-center card-title bg-secondary-subtle border border-secondary ">R$3,60</h3>
+                <div clas="card-body">
+                    <h5 class="card-title">Abacate Tradicional</h5>
+                    <p class="card-text">Abacate com a melhor qualidade do mercado!!!</p>
+                </div>
+                <div class="card-footer">
+                    <button class="btn btn-danger "> Adicionar o carinho </button>
+                </div>
+            </div>
+
+            <div class="card col-12 col-md-2">
+                <img src="./produtos/laranja.jpg" class="card-img-top">
+                <h3 class="text-center card-title bg-secondary-subtle border border-secondary ">R$3,60</h3>
+                <div clas="card-body">
+                    <h5 class="card-title">Laranja Tradicional</h5>
+                    <p class="card-text">Laranja com a melhor qualidade do mercado!!!</p>
+                </div>
+                <div class="d-flex justify-content-around ">
+                    <button class="btn btn-danger "> Adicionar o carinho </button>
+                </div>
+            </div>
+
+            <div class="card  col-12 col-md-2 align-items-center">
+                <img src="./produtos/abacaxi.jpg" class="card-img-top">
+                <h3 class="text-center card-title bg-secondary-subtle border border-secondary ">R$4,60</h3>
+                <div clas="card-body">
+                    <h5 class="card-title ">Abacaxi Tradicional</h5>
+                    <p class="card-text">Abacaxi com a melhor qualidade do mercado!!!</p>
+                </div>
+                <div class="d-flex justify-content-around ">
+                    <button class="btn btn-danger "> Adicionar o carinho </button>
+                </div>
+            </div>
+
+            <div class="card col-12 col-md-2 align-items-center">
+                <img src="./produtos/alho.jpg" class="card-img-top">
+                <h3 class="text-center card-title bg-secondary-subtle border border-secondary ">R$3,00</h3>
+                <div clas="card-body">
+                    <h5 class="card-title">Alho Tradicional</h5>
+                    <p class="card-text">Alho com a melhor qualidade do mercado!!!</p>
+                </div>
+                <div class="d-flex justify-content-around ">
+                    <button class="btn btn-danger "> Adicionar o carinho </button>
+                </div>
+            </div>
+
+            <div class="card col-12 col-md-2 align-items-center">
+                <img src="./produtos/alface.jpg" class="card-img-top">
+                <h3 class="text-center card-title bg-secondary-subtle border border-secondary ">R$2,60</h3>
+                <div clas="card-body">
+                    <h5 class="card-title">Alface Tradicional</h5>
+                    <p class="card-text">Alface com a melhor qualidade do mercado!!!</p>
+                </div>
+                <div class="d-flex justify-content-around ">
+                    <button class="btn btn-danger "> Adicionar o carinho </button>
+                </div>
+            </div>
+
+            <div class="card col-12 col-md-2 align-items-center">
+                <img src="./produtos/maca.jpg" class="card-img-top">
+                <h3 class="text-center card-title bg-secondary-subtle border border-secondary ">R$5,80</h3>
+                <div clas="card-body">
+                    <h5 class="card-title">Maça Tradicional</h5>
+                    <p class="card-text">Maça com a melhor qualidade do mercado!!!</p>
+                </div>
+                <div class="d-flex justify-content-around ">
+                    <button class="btn btn-danger "> Adicionar o carinho </button>
+                </div>
+            </div>
+
+            <div class="card col-12 col-md-2">
+                <div class="card-header">
+                    <img src="./produtos/mamao.jpg" class="card-img-top">
+                </div>
+                <h3 class="text-center card-title bg-secondary-subtle border border-secondary ">R$3,60</h3>
+                <div clas="card-body">
+                    <h5 class="card-title">Mamão Tradicional</h5>
+                    <p class="card-text">Mamão com a melhor qualidade do mercado!!!</p>
+                </div>
+                <div class="card-footer">
+                    <button class="btn btn-danger "> Adicionar o carinho </button>
+                </div>
+            </div>
+
+            <div class="card col-12 col-md-2">
+                <img src="./produtos/abacate.jpg" class="card-img-top">
+                <h3 class="text-center card-title bg-secondary-subtle border border-secondary ">R$3,60</h3>
+                <div clas="card-body">
+                    <h5 class="card-title">Abacate Tradicional</h5>
+                    <p class="card-text">Abacate com a melhor qualidade do mercado!!!</p>
+                </div>
+                <div class="d-flex justify-content-around ">
+                    <button class="btn btn-danger "> Adicionar o carinho </button>
+                </div>
+            </div>
+
+            <div class="card col-12 col-md-2 align-items-center">
+                <img src="./produtos/maca.jpg" class="card-img-top">
+                <h3 class="text-center card-title bg-secondary-subtle border border-secondary ">R$4,60</h3>
+                <div clas="card-body">
+                    <h5 class="card-title ">Maça Tradicional</h5>
+                    <p class="card-text">Maça com a melhor qualidade do mercado!!!</p>
+                </div>
+                <div class="d-flex justify-content-around ">
+                    <button class="btn btn-danger "> Adicionar o carinho </button>
+                </div>
+            </div>
+
+            <div class="card col-12 col-md-2 align-items-center">
+                <img src="./produtos/banana.jpg" class="card-img-top">
+                <h3 class="text-center card-title bg-secondary-subtle border border-secondary ">R$3,00</h3>
+                <div clas="card-body">
+                    <h5 class="card-title">Banana Tradicional</h5>
+                    <p class="card-text">Banana com a melhor qualidade do mercado!!!</p>
+                </div>
+                <div class="d-flex justify-content-around ">
+                    <button class="btn btn-danger "> Adicionar o carinho </button>
+                </div>
+            </div>
+
+            <div class="card col-12 col-md-2 align-items-center">
+                <img src="./produtos/alface.jpg" class="card-img-top">
+                <h3 class="text-center card-title bg-secondary-subtle border border-secondary">R$2,60</h3>
+                <div clas="card-body">
+                    <h5 class="card-title">Alface Tradicional</h5>
+                    <p class="card-text">Alface com a melhor qualidade do mercado!!!</p>
+                </div>
+                <div class="d-flex justify-content-around ">
+                    <button class="btn btn-danger "> Adicionar o carinho </button>
+                </div>
+            </div>
+
+            <div class="card col-12 col-md-2 align-items-center">
+                <img src="./produtos/mamao.jpg" class="card-img-top">
+                <h3 class="text-center card-title bg-secondary-subtle border border-secondary">R$5,80</h3>
+                <div clas="card-body">
+                    <h5 class="card-title">Mamão Tradicional</h5>
+                    <p class="card-text">Mamão com a melhor qualidade do mercado!!!</p>
+                </div>
+                <div class="d-flex justify-content-around ">
+                    <button class="btn btn-danger "> Adicionar o carinho </button>
+                </div>
+            </div>
+        </div>
+    </div>
+   </main>
+   <footer class="bg-danger">
+    <div class="row justify-content-between ">
+        <p class="col-12 col-md-4"> 2023 Quiotanda Online <br>
+            Rua Irlanda - Andradina - SP  <br>
+            CNPJ- 2525296300
+        </p>
+        <p class="col-12 col-md-4">
+            Politica e Privacidade <br>
+            termos de uso <br>
+            Quem somos <br>
+            Troca e Devolucoes
+        </p>
+        <p class="col-12 col-md-4">
+            Contato pelo Site <br>
+            Email: Quitanda.virtual@gmail.Com <br>
+            Telefone:(18)996156894
+
+        </p>
+    </div>
+
+</footer>
+
+
+
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+    crossorigin="anonymous"></script>
+
+</html>

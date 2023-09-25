@@ -1,0 +1,17 @@
+@media(min-width:768px)
+{
+    .principal
+    {background-image:url(https://a-static.mlcdn.com.br/450x450/apple-iphone-13-128gb-rosa-tela-61-12mp/magazineluiza/234662000/62f1963b9dc397e6f317ae4fb8388f8e.jpg) ;
+}
+}
+@media(min-width:992px){
+    .principal
+    {background-image: url(https://br.celulares.com/fotos/apple-ipad-pro-12-9-2021-91165-g-alt.jpg);
+}
+}
+
+@media(min-width:1200px){
+    .principal
+    {background-image: url(https://www.mastertronic.com.br/media/catalog/product/cache/1/image/600x600/9df78eab33525d08d6e5fb8d27136e95/m/g/mgna3_certo_2.jpg);
+}
+}
